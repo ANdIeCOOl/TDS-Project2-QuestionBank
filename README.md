@@ -1,14 +1,14 @@
 # TDS-Project2-QuestionBank
 Question Bank for all TDS assignments
 
-#Requested format
-# Student Assignments Directory Structure
+# Requested format
+## Student Assignments Directory Structure
 
 Each student has a folder named with their roll number. Inside each student's folder, there are multiple assignment folders (`Assignment_X`). Each assignment contains:
 - A `.txt` file with the question statement.
 - A corresponding `.py`, `.sh`, or `.js` file for the solution.
 
-## Example Directory Structure
+### Example Directory Structure
 RollNo_12345/
 ├── Assignment_1/
 │   ├── Q1.txt    # Question for Q1
@@ -26,7 +26,7 @@ RollNo_12345/
 │   ├── Q3.js
 
 
-## Command to Generate This Structure in Linux
+### Command to Generate This Structure in Linux
 
 Run the following script to create the directory structure:
 
