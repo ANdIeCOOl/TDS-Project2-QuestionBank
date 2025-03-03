@@ -9,6 +9,8 @@ Each student has a folder named with their roll number. Inside each student's fo
 - A corresponding `.py`, `.sh`, or `.js` file for the solution.
 
 ### Example Directory Structure
+
+```
 RollNo_12345/
 ├── Assignment_1/
 │   ├── Q1.txt    # Question for Q1
@@ -24,7 +26,7 @@ RollNo_12345/
 │   ├── Q2.sh
 │   ├── Q3.txt
 │   ├── Q3.js
-
+```
 
 ### Command to Generate This Structure in Linux
 
