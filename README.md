@@ -31,6 +31,7 @@ RollNo_12345/
 Run the following script to create the directory structure:
 
 ```bash
+for roll in 12345; do
   for assignment in {1..2}; do
     mkdir -p RollNo_${roll}/Assignment_${assignment}
     for q in {1..3}; do
@@ -40,4 +41,5 @@ Run the following script to create the directory structure:
       touch RollNo_${roll}/Assignment_${assignment}/Q${q}.js
     done
  done
+done
 ```
